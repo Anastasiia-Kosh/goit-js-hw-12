@@ -18,7 +18,7 @@ const refs = {
 };
 
 let page = 1;
-let perPage = 100;
+let perPage = 15;
 let totalHits;
 let userSearch = '';
 
