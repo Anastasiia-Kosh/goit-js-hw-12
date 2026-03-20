@@ -77,7 +77,6 @@ refs.loadBtn.addEventListener('click', async e => {
   try {
     const data = await getImagesByQuery(userSearch, page);
     createGallery(data.hits);
-    showLoadMoreButton();
     const galleryCard = document.querySelector('.gallery-item');
     if (galleryCard) {
       const cardHeight = galleryCard.getBoundingClientRect().height;
@@ -95,7 +94,7 @@ refs.loadBtn.addEventListener('click', async e => {
         messageColor: 'white',
       });
     }
-    console.log(data);
+    showLoadMoreButton();
   } catch (error) {
     iziToast.show({
       message: 'Something went wrong. Please try again later.',
