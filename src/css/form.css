@@ -4,15 +4,15 @@
   justify-content: center;
 }
 .form input {
+  padding: 8px 16px;
   outline: none;
   border: 1px solid #808080;
   border-radius: 4px;
-  padding: 8px 16px;
-  width: 272px;
-  height: 40px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #808080;
+    width: 272px;
+  height: 40px;
 }
 .form input:hover {
   border-color: #000;
@@ -22,12 +22,12 @@
   border-color: #4e75ff;
 }
 .search-btn {
+  padding: 8px 16px;
+  margin-left: 8px;
+    width: 91px;
+  height: 40px;
   background-color: #4e75ff;
   border-radius: 8px;
-  padding: 8px 16px;
-  width: 91px;
-  height: 40px;
-  margin-left: 8px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -42,6 +42,7 @@
 }
 .load-btn.is-visible {
   display: block;
+   margin: 0 auto;
   background-color: #4e75ff;
   border-radius: 8px;
   padding: 8px 16px;
@@ -51,5 +52,5 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  margin: 0 auto;
+ 
 }
